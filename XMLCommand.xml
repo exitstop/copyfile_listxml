@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PMML version="3.0" xmlns="http://www.dmg.org/PMML-3-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema_instance">
+    <Header copyright="Frank Vanden Berghen">
+      Hello World!
+      <!-- some comments -->
+      <Application name="myCopyFile" version="1.99beta" />
+    </Header>
+
+
+    <Command name="copy">
+        <Key name="copyme'.txt" sourcefile="./SOURCE/" destfile="./DEST/"></Key>
+        <Key name="copyme2.txt" sourcefile="./SOURCE" destfile="./DEST"></Key>
+        <Key name="copyme3.txt" sourcefile="./SOURCE" destfile="./DEST/"></Key>
+    </Command>
+
+</PMML>
